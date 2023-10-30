@@ -1,15 +1,19 @@
 body{
-        background-color: #f8f9fa;
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    font-size: 0.875em;
 }
 #maincontainer {
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1650px;
     padding: 3.5rem 2rem 2rem 2rem;
 }
 footer {
+    line-height: 1.5rem;
+    font-size: 0.8125em;
     margin: 0 auto 0 auto;
     width: 95%;
     padding: 1rem 0 1rem 0;
@@ -19,7 +23,7 @@ p {
     tab-size: 8;
 }
 .vmiszarok {
-    padding: 0 2rem 0 0;
+    padding: 0 1rem 0 0;
 }
 button{
     width: 3.5rem;
@@ -33,4 +37,48 @@ button{
     margin: 3.5rem 0 0 1rem ;
     background-color: white;
     position: fixed;
+}
+#mininav2 {
+    font-size: 0.8125em;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    padding: 0.25rem 0 0.25rem 0;
+    border-top: solid #a2a9b1 1px;
+}
+main {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    padding: 0.25rem 0 0.25rem 0;
+    border-top: solid #a2a9b1 1px;
+}
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+a:hover{
+    color: #3366cc;
+    text-decoration: underline;
+}
+#alsoindex{
+    font-size: 80%;
+}
+h1,h2,h3,h4 {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+}
+h1 {
+    font-size: 1.8em;
+}
+section {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    padding: 0.25rem 0 0.25rem 0;
+    border-top: solid #a2a9b1 1px;
+}
+.sidecard {
+    margin: 0.5rem 0 0.25rem 0;
+    background-color: #f8f9fa;
+    border: solid 2px #a2a9b1;
+}
+.sidecard>h2 {
+    background-color: #e1afaf;
 }
