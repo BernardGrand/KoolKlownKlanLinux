@@ -15,59 +15,323 @@
 
 <body>
     <button class="d-block d-lg-none" id="toggleButton">
-        <img src="./etc/img/png-transparent-hamburger-button-hot-dog-computer-icons-pancake-hot-dog-share-icon-navbar-menu.png" class="img-fluid">
+        <img src="./etc/img/png-transparent-hamburger-button-hot-dog-computer-icons-pancake-hot-dog-share-icon-navbar-menu.png"
+            class="img-fluid">
     </button>
     <div id="mininav">
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+        <ul id="closeable">
+            <li><a href="#About">About Linux</a></li>
+            <li><a href="#History">History</a></li>
+            <ul>
+                <li><a href="#Precursors">Precursors</a></li>
+                <li><a href="#Creation">Creation</a></li>
+                <li><a href="#Naming">Naming</a></li>
+                <li><a href="#Commercial">Commercial and popular uptake</a></li>
+                <li><a href="#Current">Current development</a></li>
+            </ul>
         </ul>
     </div>
     <div id="maincontainer" class="container row">
         <nav id="sidebarMenu" class="col-2 collapse d-lg-block sidebar collapse navbar navbar-expand-lg">
-            <div class="position-sticky">
+            <div class="position-sticky" >
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="#About">About Linux</a></li>
+                    <li><a href="#History">History</a></li>
+                    <ul>
+                        <li><a href="#Precursors">Precursors</a></li>
+                        <li><a href="#Creation">Creation</a></li>
+                        <li><a href="#Naming">Naming</a></li>
+                        <li><a href="#Commercial">Commercial and popular uptake</a></li>
+                        <li><a href="#Current">Current development</a></li>
+                    </ul>
                 </ul>
             </div>
         </nav>
-        <div class="col-10">
+        <div class="col-12 col-lg-10">
             <header class="col-12">
                 <h1>Linux</h1>
             </header>
-            <div class="col-12"></div>
-            <main class="col-12">
+            <div class="col-12" id="mininav2">
+                <a href="" class="vmiszarok" id="">Linux</a>
+                <a href="" class="vmiszarok">allap1</a>
+                <a href="" class="vmiszarok">allap2</a>
+                <a href="" class="vmiszarok">allap3</a>
+            </div>
+            <main class="col-12 row">
+                <div class="col-12 col-lg-9">
+                    <p>
+                        From Wikipedia, the free encyclopedia
+                    </p>
+                    <p id="indent">
+                        <em>This article is about the family of operating systems. For the kernel, see Linux kernel. For
+                            other uses, see Linux (disambiguation).</em>
+                    </p>
+                    <section id="About">
+                        <p>Linux (/ˈlɪnʊks/ LIN-uuks) is a family of open-source Unix-like operating systems based on
+                            the
+                            Linux
+                            kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds.
+                            Linux is
+                            typically packaged as a Linux distribution (distro), which includes the kernel and
+                            supporting
+                            system
+                            software and libraries, many of which are provided by the GNU Project. Many Linux
+                            distributions
+                            use
+                            the word "Linux" in their name, but the Free Software Foundation uses and recommends the
+                            name
+                            "GNU/Linux" to emphasize the use and importance of GNU software in many distributions,
+                            causing
+                            some
+                            controversy.</p>
+                        <p>Popular Linux distributions include Debian, Fedora Linux, Arch Linux and Ubuntu. Commercial
+                            distributions include Red Hat Enterprise Linux and SUSE Linux Enterprise. Desktop Linux
+                            distributions include a windowing system such as X11 or Wayland, and a desktop environment
+                            such
+                            as
+                            GNOME or KDE Plasma. Distributions intended for servers may omit graphics altogether, or
+                            include
+                            a
+                            solution stack such as LAMP. Because Linux is freely redistributable, anyone may create a
+                            distribution for any purpose.</p>
+                        <p>Linux was originally developed for personal computers based on the Intel x86 architecture,
+                            but
+                            has
+                            since been ported to more platforms than any other operating system. Because of the
+                            dominance of
+                            the
+                            Linux-based Android on smartphones, Linux, including Android, has the largest installed base
+                            of
+                            all
+                            general-purpose operating systems, as of May 2022. Although Linux is, as of November 2022,
+                            used
+                            by
+                            only around 2.6 percent of desktop computers, the Chromebook, which runs the Linux
+                            kernel-based
+                            ChromeOS, dominates the US K–12 education market and represents nearly 20 percent of
+                            sub-$300
+                            notebook sales in the US. Linux is the leading operating system on servers (over 96.4% of
+                            the
+                            top 1
+                            million web servers' operating systems are Linux), leads other big iron systems such as
+                            mainframe
+                            computers, and is used on all of the world's 500 fastest supercomputers (as of November
+                            2017,
+                            having
+                            gradually displaced all competitors).</p>
+                        <p>Linux also runs on embedded systems, i.e. devices whose operating system is typically built
+                            into
+                            the
+                            firmware and is highly tailored to the system. This includes routers, automation controls,
+                            smart
+                            home devices, video game consoles, televisions (Samsung and LG Smart TVs), automobiles
+                            (Tesla,
+                            Audi,
+                            Mercedes-Benz, Hyundai and Toyota), and spacecraft (Falcon 9 rocket, Dragon crew capsule and
+                            the
+                            Perseverance rover).</p>
+                        <p>
+                            Linux is one of the most prominent examples of free and open-source software collaboration.
+                            The
+                            source code may be used, modified and distributed commercially or non-commercially by anyone
+                            under
+                            the terms of its respective licenses, such as the GNU General Public License (GPL). The
+                            Linux
+                            kernel, for example, is licensed under the GPLv2, with an exception for system calls that
+                            allows
+                            code that calls the kernel via system calls not to be licensed under the GPL.
+                        </p>
+                    </section>
+                    <h2 id="History">History</h2>
+                    <section>
+                        <h3 id="Precursors">Precursors</h3>
+
+                        <p>
+                            Linus Torvalds, principal author of the Linux kernel
+                            The Unix operating system was conceived and implemented in 1969, at AT&T's Bell Labs, in the
+                            United States by Ken Thompson, Dennis Ritchie, Douglas McIlroy, and Joe Ossanna. First
+                            released in 1971, Unix was written entirely in assembly language, as was common practice at
+                            the
+                            time. In 1973, in a key pioneering approach, it was rewritten in the C programming language
+                            by
+                            Dennis Ritchie (with the exception of some hardware and I/O routines). The availability of a
+                            high-level language implementation of Unix made its porting to different computer platforms
+                            easier.
+                        </p>
+
+                        <p>
+                            Due to an earlier antitrust case forbidding it from entering the computer business, AT&T
+                            licensed the operating system's source code as a trade secret to anyone who asked. As a
+                            result,
+                            Unix grew quickly and became widely adopted by academic institutions and businesses. In
+                            1984,
+                            AT&T divested itself of its regional operating companies, and was released from its
+                            obligation
+                            not to enter the computer business; freed of that obligation, Bell Labs began selling Unix
+                            as a
+                            proprietary product, where users were not legally allowed to modify it.
+                        </p>
+
+                        <p>
+                            Onyx Systems began selling early microcomputer-based Unix workstations in 1980. Later, Sun
+                            Microsystems, founded as a spin-off of a student project at Stanford University, also began
+                            selling Unix-based desktop workstations in 1982. While Sun workstations did not utilize
+                            commodity PC hardware, for which Linux was later originally developed, it represented the
+                            first
+                            successful commercial attempt at distributing a primarily single-user microcomputer that ran
+                            a
+                            Unix operating system.
+                        </p>
+
+                        <p>
+                            With Unix increasingly "locked in" as a proprietary product, the GNU Project, started in
+                            1983 by
+                            Richard Stallman, had the goal of creating a "complete Unix-compatible software system"
+                            composed
+                            entirely of free software. Work began in 1984. Later, in 1985, Stallman started the Free
+                            Software Foundation and wrote the GNU General Public License (GNU GPL) in 1989. By the early
+                            1990s, many of the programs required in an operating system (such as libraries, compilers,
+                            text
+                            editors, a command-line shell, and a windowing system) were completed, although low-level
+                            elements such as device drivers, daemons, and the kernel, called GNU Hurd, were stalled and
+                            incomplete.
+                        </p>
+
+                        <p>
+                            MINIX was created by Andrew S. Tanenbaum, a computer science professor, and released in 1987
+                            as
+                            a minimal Unix-like operating system targeted at students and others who wanted to learn
+                            operating system principles. Although the complete source code of MINIX was freely
+                            available,
+                            the licensing terms prevented it from being free software until the licensing changed in
+                            April
+                            2000.
+                        </p>
+
+                        <p>
+                            Although not released until 1992, due to legal complications, development of 386BSD, from
+                            which
+                            NetBSD, OpenBSD and FreeBSD descended, predated that of Linux.
+                        </p>
+
+                        <p>
+                            Linus Torvalds has stated on separate occasions that if the GNU kernel or 386BSD had been
+                            available at the time (1991), he probably would not have created Linux.
+                        </p>
+                    </section>
+                </div>
+                <div class="sidecard col-12 col-lg-3">
+                    <img src="./etc/img/Tux.svg.png" class="img-fluid takakozep">
+                    <p class="takakozep">Tux the penguin, the mascot of Linux</p>
+                    <table>
+                        <tr>
+                            <td>Developer</td>
+                            <td>Community contributors, Linus Torvalds</td>
+                        </tr>
+                        <tr>
+                            <td>Written in</td>
+                            <td>C, assembly languages, and others</td>
+                        </tr>
+                        <tr>
+                            <td>OS family</td>
+                            <td>Unix-like</td>
+                        </tr>
+                        <tr>
+                            <td>Working state</td>
+                            <td>Current</td>
+                        </tr>
+                        <tr>
+                            <td>Source model</td>
+                            <td> Open source</td>
+                        </tr>
+                        <tr>
+                            <td>Initial release</td>
+                            <td>September 17, 1991; 32 years ago</td>
+                        </tr>
+                        <tr>
+                            <td>Repository</td>
+                            <td><a href="git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/"
+                                    target="_blank">git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/</a></td>
+                        </tr>
+                        <tr>
+                            <td>Marketing target</td>
+                            <td>Cloud computing, embedded devices, mainframe computers, mobile devices, personal
+                                computers, servers, supercomputers</td>
+                        </tr>
+                        <tr>
+                            <td>Available in</td>
+                            <td>Multilingual</td>
+                        </tr>
+                        <tr>
+                            <td>Platforms</td>
+                            <td>Alpha, ARC, ARM, C-Sky, Hexagon, IA-64, LoongArch, m68k, Microblaze, MIPS, Nios II,
+                                OpenRISC, PA-RISC, PowerPC, RISC-V, s390, SuperH, SPARC, x86, Xtensa</td>
+                        </tr>
+                        <tr>
+                            <td>Kernel type</td>
+                            <td>Monolithic</td>
+                        </tr>
+                        <tr>
+                            <td>Userland</td>
+                            <td>GNU, BusyBox</td>
+                        </tr>
+                        <tr>
+                            <td>Default user interface</td>
+                            <td>Unix shell (CLI)<br>Most distributions include a desktop environment (GUI)</td>
+                        </tr>
+                        <tr>
+                            <td>License</td>
+                            <td>GPLv2</td>
+                        </tr>
+                        <tr>
+                            <td>Official website</td>
+                            <td><a href="kernel.org" target="_blank">kernel.org</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <section class="col-12">
+                    <h3 id="Creation">Creation</h3>
+                        <p>While attending the University of Helsinki in the fall of 1990, Torvalds enrolled in a Unix course. The course utilized a MicroVAX minicomputer running Ultrix, and one of the required texts was Operating Systems: Design and Implementation by Andrew S. Tanenbaum. This textbook included a copy of Tanenbaum's MINIX operating system. It was with this course that Torvalds first became exposed to Unix. In 1991, he became curious about operating systems. Frustrated by the licensing of MINIX, which at the time limited it to educational use only, he began to work on his own operating system kernel, which eventually became the Linux kernel.</p>
+                        <p>On July 3, 1991, in an effort to implement Unix system calls, Linus Torvalds attempted unsuccessfully to obtain a digital copy of the POSIX standards documentation with a request to the comp.os.minix newsgroup. After not finding the POSIX documentation, Torvalds initially resorted to determining system calls from SunOS documentation owned by the university for use in operating its Sun Microsystems server. He also learned some system calls from Tanenbaum's MINIX text.</p>
+                        <p>Torvalds began the development of the Linux kernel on MINIX and applications written for MINIX were also used on Linux. Later, Linux matured and further Linux kernel development took place on Linux systems. GNU applications also replaced all MINIX components, because it was advantageous to use the freely available code from the GNU Project with the fledgling operating system; code licensed under the GNU GPL can be reused in other computer programs as long as they also are released under the same or a compatible license. Torvalds initiated a switch from his original license, which prohibited commercial redistribution, to the GNU GPL. Developers worked to integrate GNU components with the Linux kernel, creating a fully functional and free operating system.</p>
+
+                        <h3 id="Naming">Naming</h3>
+                        <p>Linus Torvalds had wanted to call his invention "Freax", a portmanteau of "free", "freak", and "x" (as an allusion to Unix). During the start of his work on the system, some of the project's makefiles included the name "Freax" for about half a year. Initially, Torvalds considered the name "Linux" but dismissed it as too egotistical.</p>
+                        <p>To facilitate development, the files were uploaded to the FTP server (ftp.funet.fi) of FUNET in September 1991. Ari Lemmke, Torvalds' coworker at the Helsinki University of Technology (HUT) who was one of the volunteer administrators for the FTP server at the time, did not think that "Freax" was a good name, so he named the project "Linux" on the server without consulting Torvalds. Later, however, Torvalds consented to "Linux".</p>
+                        <p>According to a newsgroup post by Torvalds, the word "Linux" should be pronounced (/ˈlɪnʊks/ ⓘ LIN-uuks) with a short 'i' as in 'print' and 'u' as in 'put'. To further demonstrate how the word "Linux" should be pronounced, he included an audio guide with the kernel source code. However, in this recording, he pronounces Linux as /ˈlinʊks/ (LEEN-uuks) with a short but close front unrounded vowel, instead of a near-close near-front unrounded vowel as in his newsgroup post.</p>
+
+                        <h3 id="Commercial">Commercial and popular uptake</h3>
+                        <p>Adoption of Linux in production environments, rather than being used only by hobbyists, started to take off first in the mid-1990s in the supercomputing community, where organizations such as NASA started to replace their increasingly expensive machines with clusters of inexpensive commodity computers running Linux. Commercial use began when Dell and IBM, followed by Hewlett-Packard, started offering Linux support to escape Microsoft's monopoly in the desktop operating system market.</p>
+                        <p>Today, Linux systems are used throughout computing, from embedded systems to virtually all supercomputers, and have secured a place in server installations such as the popular LAMP application stack. Use of Linux distributions in home and enterprise desktops has been growing. Linux distributions have also become popular in the netbook market, with many devices shipping with customized Linux distributions installed, and Google releasing their own ChromeOS designed for netbooks.</p>
+                        <p>Linux's greatest success in the consumer market is perhaps the mobile device market, with Android being the dominant operating system on smartphones and very popular on tablets and, more recently, on wearables. Linux gaming is also on the rise with Valve showing its support for Linux and rolling out SteamOS, its own gaming-oriented Linux distribution, which was later implemented in their Steam Deck platform. Linux distributions have also gained popularity with various local and national governments, such as the federal government of Brazil.</p>
+
+                        <h3 id="Current">Current development</h3>
+                        <p>Linus Torvalds is the lead maintainer for the Linux kernel and guides its development, while Greg Kroah-Hartman is the lead maintainer for the stable branch. William John Sullivan is the executive director of the Free Software Foundation, which in turn supports the GNU components. Finally, individuals and corporations develop third-party non-GNU components. These third-party components comprise a vast body of work and may include both kernel modules and user applications and libraries.</p>
+                        <p>Linux vendors and communities combine and distribute the kernel, GNU components, and non-GNU components, with additional package management software in the form of Linux distributions.</p>
+                </section>
 
             </main>
         </div>
         <footer class="col-12">
-            <p>A lap utolsó módosítása: 2023. október 24., 8:10</p>
-            <p>A lap szövege <a href="https://creativecommons.org/licenses/list.en" target="_blank">Creative Commons
-                    Nevezd meg! - Így add tovább! 4.0</a> licenc alatt van; egyes esetekben más módon is felhasználható.
-                Részletekért lásd a <a href="./etc/404.html" target="_blank">felhasználási feltételeket.</a></p>
-            <p>Menő Bohócok <span>(<a
+            <p>This page was last edited on 7 November 2023, at 13:11 <br>
+                Text is available under the <a href="https://creativecommons.org/licenses/list.en" target="_blank">Creative Commons Attribution-ShareAlike License 4.0</a>;additional terms may apply. By using this site, you agree to the <a href="./etc/404.html" target="_blank">Terms of Use</a> and <a href="./etc/404.html" target="_blank">Privacy Policy</a>.<br>
+                Menő Bohócok <sub id="alsoindex">(<a
                         href="https://www.reddit.com/r/gorillaz/comments/6h9oxa/what_exactly_is_the_kool_klown_klan/"
-                        target="_blank">Kool Klown Klan</a>)</span> Ádám János - Szabó Anrdrás - Nagy Bernát</p>
-            <p>
-                <a href="./etc/404.html" class="vmiszarok" target="_blank">Adatvédelmi irányelvek</a>
-                <a href="./etc/404.html" class="vmiszarok" target="_blank">A Wikipédiáról</a>
-                <a href="./etc/404.html" class="vmiszarok" target="_blank">Jogi nyilatkozat</a>
+                        target="_blank">Kool Klown Klan</a>)</sub><br>
+                Ádám János - Szabó Anrdrás - Nagy Bernát<br>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">Privacy policy</a>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">About</a>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">Disclaimers</a>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">Contact</a>
                 <a href="./etc/404.html" class="vmiszarok" target="_blank">Code of Conduct</a>
-                <a href="./etc/404.html" class="vmiszarok" target="_blank">Fejlesztők</a>
-                <a href="./etc/404.html" class="vmiszarok" target="_blank">Statisztikák</a>
-                <a href="./etc/404.html" class="vmiszarok" target="_blank">Sütinyilatkozat</a>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">Developers</a>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">Statistics</a>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">Cookie statement</a>
+                <a href="./etc/404.html" class="vmiszarok" target="_blank">Mobile view</a>
             </p>
         </footer>
     </div>
 </body>
 <script src="./etc/js.js"></script>
+
 </html>
