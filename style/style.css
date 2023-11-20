@@ -90,7 +90,6 @@ section {
 .sidecard {
     font-size: 12px;
     margin: 0.5rem 0 0.25rem 0;
-    background-color: #f8f9fa;
     border: solid 2px #a2a9b1;
 }
 .sidecard>h2 {
@@ -101,7 +100,7 @@ section {
     display: block;
     text-align: center;
 }
-#indent{
+.indent{
     text-indent: 2rem;
 }
 table{
@@ -120,4 +119,10 @@ td:first-child {
 #closeable {
     padding: 0.5rem;
     border: solid black 2px;
+}
+.idkmauto {
+    margin: auto;
+}
+#logo {
+    height: 4rem;
 }
