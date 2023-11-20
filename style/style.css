@@ -22,7 +22,7 @@ footer {
 p {
     tab-size: 8;
     text-align: justify;
-    word-spacing: 110%;
+    word-spacing: 3px;
     row-gap: 120%;
     text-indent: 0.5rem;
     line-height: 110%;
